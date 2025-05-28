@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour Booking</title>
+    <link rel="stylesheet" href="TourBooking_Challenge.css">
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Tour Booking Form</h1>
+      <h3><span>Note: *Mandatory Fields</span></h3>
+      <hr class="red-line" />
+      <label for="name" id="fullName">Full Name<span>*</span>:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+      <label for="email">Email address<span>*</span>:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+      <label for="package">Select Tour Package<span>*</span>:</label><br />
+      <select name="package" id="package">
+        <option value="southindia">South India</option>
+        
+        <option value="northindia">North India</option></select
+      ><br /><br />
+      <label for="date">Arrival Date<span>*</span>:</label><br />
+      <input type="date" id="date" name="date" required /><br /><br />
+      <label for="count">Number Of Pesons<span>*</span>:</label><br />
+      <input type="text" id="count" name="count" required /><br /><br />
+      <label for="avil">What Would You Want To Avil?<span>*</span></label><br />
+      <input type="checkbox" name="Boarding" id="Boarding" value="Boarding" />
+      <label for="Boarding">Boarding</label><br />
+      <input type="checkbox" name="Food" id="Food" value="Food" />
+      <label for="Food">Food</label><br />
+      <input type="checkbox" name="Sight" id="Sight" value="Sight" />
+      <label for="Sight">Sight Seeing</label><br /><br />
+      <label for="Conditions">Terms and Conditions<span>*</span></label><br />
+      <input type="radio" name="agree" id="agree" value="agree" />
+      <label for="agree">I agree</label><br /><br />
+      <input type="submit" name="submit" value="Book Now" />
+    </div>
+  </body>
+</html>
+
+
+
+
